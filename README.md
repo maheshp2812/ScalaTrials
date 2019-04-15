@@ -14,3 +14,6 @@ shown in the code is given below:
 - Traits / Mixins
 - Case classes and pattern matching
 - Named parameters
+
+Note: To demonstrate case classes and pattern matching, we used a simple
+non-relevant example (the showNotification function in Main).
