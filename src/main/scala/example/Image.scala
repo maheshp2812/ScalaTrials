@@ -17,7 +17,7 @@ class Image(height: Int, width: Int) {
 // Companion object of the Image class that contains a factory method create()
 object Image {
   // This method creates an image of given dimensions with random rgb values
-  // for each pixel.
+  // for each pixel. The block has the value image, which is assigned to create.
   def create(height: Int, width: Int): Image = {
     println("Creating new random image...")
     val image: Image = new Image(height, width)
